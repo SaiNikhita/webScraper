@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cbit</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Form.css" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/C85BDA72-037A-5F48-BDD9-764C5A438ED1/main.js" charset="UTF-8"></script><script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/C85BDA72-037A-5F48-BDD9-764C5A438ED1/main.js" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <style>
+  </style>
+</head>
+<body >
+
+<div>
+	<div class="header">
+		<div class="col-sm-4">
+			<img src="logo.png" style="width:150px; height: 150px;">
+		</div>
+		<div class="col-sm-8" style="height: 150px">
+  			<h1 id="heading" style="text-align:left;">The Truth</h1>
+  	</div>
+  	<div>
+  	<div class=content>
+  		<div class="col-sm-8" style="border-right: 1px solid black; border-collapse: collapse;">
+      {% for comment in result %}
+			<div id="content" class="jumbotron" style="margin-top:10px; padding-top:10px; padding-bottom:10px;">
+				<p class="contentpara" style="display:inline;">
+					{{ comment }}
+				</p>
+			</div>
+      {%endfor%}
+  		</div>
+  		<div class="col-sm-4" style="">
+  			<div style="">
+  				<img src="C:\Users\Prabhakar\Desktop\helloworld\plots.png" width="400px" height="400px">
+  			</div>
+  		</div>
+  	</div>		
+</div>
+</body>
+</html>

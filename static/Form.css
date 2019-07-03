@@ -1,0 +1,51 @@
+#heading{
+	//background-image:url("image1.png");
+	//background-repeat:no-repeat;
+	//background-size:300px;
+	font-family: Brush Script MT, Brush Script Std, cursive	;
+	text-align: center;
+	padding-top:50px;
+	font-size: 70px;
+}
+img{
+	size: 300px;
+	repeat:no-repeat;
+}
+ul li{
+	font-family:Brush Script MT, Brush Script Std, cursive;
+	font-size: 30px;
+}
+#form-heading{
+	font-family: Times New Roman,Times,serif;
+	text-align: center;
+	padding-top: 30px;
+}
+#form-sub{
+	font-family: Times New Roman,Times,serif;
+	text-align: center;
+	font-style: italic;
+}
+span{
+	padding-top: 30px;
+	font-size: 17px;
+}
+input{
+	margin-top: 10px;
+}
+#idea{
+	width:80%;
+	height:50px;
+}
+#aut-btn{
+	display: inline;
+}
+#abt-btn{
+	display: inline;
+}
+.sublist{
+	font-family: Times New Roman;
+	font-size:20px;
+}
+.jumbotron{
+		background-color:black;
+}
